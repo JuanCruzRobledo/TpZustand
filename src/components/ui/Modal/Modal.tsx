@@ -53,7 +53,7 @@ const Modal: FC<Props> = ({ handleCloseModal }) => {
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 bg-opacity-40">
       <div className="bg-background text-dark p-6 rounded-2xl shadow-xl w-full max-w-md">
         <div className="flex justify-end">
           <button
