@@ -22,6 +22,7 @@ const ListTareas = () => {
 
   const handleCloseModal = () => {
     setOpenModalTarea(false)
+    window.location.reload()
   }
 
   return (
